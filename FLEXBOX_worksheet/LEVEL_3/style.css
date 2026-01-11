@@ -1,0 +1,38 @@
+.seperator {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin: 5px;
+}
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+.container3 {
+    display: flex;
+    justify-content: flex-end;
+}
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
