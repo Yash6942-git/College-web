@@ -1,0 +1,15 @@
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ height: 300px;
+}
+.box {
+  width: 80px;
+  height: 40px;
+  background: tomato;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
