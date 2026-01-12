@@ -1,0 +1,81 @@
+<!-- creating a student form -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align:center">Student Registration Form</h1>
+    <hr><br>
+    <form>
+        <div>
+            <label for="student name">Full Name:</label>
+            <input type="text" id="Student name" name="student name" placeholder="Enter your full name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your valid email address" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="Password" id="passowrd" name="password" placeholder="Enter password" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender" id="gender">Gender:</label>
+            <choose>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+            </choose>
+        </div>
+        <br>
+        <div>
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="--Select Course--">--Select Course--</option>
+                <option value="computer science">Computer Science</option>
+                <option value="information technology">Information Technology</option>
+                <option value="electronics">Electronics</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="civil">Civil</option>
+                <option value="electrical">Electrical</option>
+                <option value="chemical">Chemical</option>
+                <option value="biotechnology">Biotechnology</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone number" maxlength="10" required>
+        </div>
+        <br>
+        <div>
+            <label for="Address">Address:</label>
+            <br>
+            <textarea id="Address" name="Address" placeholder="Enter your address" rows="4" cols="50"
+                required></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit" value-"submit">Register</button>
+            <button type="reset" value="reset">Clear</button>
+        </div>
+    </form>
+    <footer>
+        <hr>
+        <p style="text-align:center">©2025 Student Registration Portal </p>
+    </footer>
+</body>
+
+</html>
